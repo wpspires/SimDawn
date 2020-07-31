@@ -4,11 +4,6 @@ using System.Text;
 
 namespace SimDawn
 {
-    public struct ByteBlock
-    {
-        public uint length;
-        public uint end;
-    }
     public class GDFileReader
     {
         private uint _key;
